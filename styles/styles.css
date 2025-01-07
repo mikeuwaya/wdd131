@@ -6,9 +6,9 @@ header{
     margin-inline-start: 100px;
     margin-block-start: -40px;
 }
-header p{
+h1 {
 	color: white;
-	padding: 30px;
+	padding: 40px;
     text-align: center;
     font-size: 25px;
 }
