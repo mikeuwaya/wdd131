@@ -2,9 +2,9 @@ header{
 	background-color: #4c4b4b;
 	height: 90px;
 	border-bottom: 1px solid #101112;
-    	width: 1200px;
-    	margin-inline-start: 100px;
-    	margin-block-start: -40px;
+    width: 1200px;
+    margin-inline-start: 100px;
+    margin-block-start: -40px;
 }
 main{
 	max-width: 1200px;
@@ -33,10 +33,20 @@ h2 {
   }
 .flex-container {
     display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     background-color: rgb(5, 5, 5);
-    height: 50px;
-    width: 1200px;
-    margin-inline-start: 100px;
+    height: 45px;
+    width: 1160px;
+    margin-block-start: -41px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+nav a{
+    color: aliceblue;
 }
 .flex-container div {
     padding: 5px;
@@ -49,8 +59,11 @@ h2 {
     grid-template-columns: 200px 200px auto;
     grid-template-rows: 2px 42px;
     background-color: rgb(255, 255, 255);
-    margin-block-start: 10px;
+    margin-block-start: 51px;
     margin-inline-start: 115px;
+}
+hr{
+    width: 50%;
 }
 .divclass1{
     border: 0px solid green;
@@ -91,7 +104,7 @@ h2 {
     padding: 2px;
     font-size: 17px;
     width: 649px;
-    height: 330px;
+    height: 360px;
     border-end-end-radius: 10px;
     border-end-start-radius: 10px;
 }
@@ -102,7 +115,7 @@ h2 {
     padding: 2px;
     font-size: 20px;
     width: 496px;
-    height: 330px;
+    height: 360px;
     border-end-end-radius: 10px;
     border-end-start-radius: 10px;
     margin-inline-start: 465px;
@@ -110,7 +123,7 @@ h2 {
 img {
     border: 2px solid green;
     float: right;    
-    margin-inline-end: 20px;
+    margin-inline-end: 9px;
 }
 .gip{    
     float: left;
@@ -123,9 +136,9 @@ p {
 }
 footer{
 	background-color: #4c4b4b;
-	height: 90px;
+	height: 70px;
     width: 1200px;
-    margin-block-start: 215px;
+    margin-block-start: 250px;
     margin-inline-start: 100px;
 }
 footer p{
