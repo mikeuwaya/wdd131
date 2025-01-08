@@ -2,9 +2,13 @@ header{
 	background-color: #4c4b4b;
 	height: 90px;
 	border-bottom: 1px solid #101112;
-    width: 1200px;
-    margin-inline-start: 100px;
-    margin-block-start: -40px;
+    	width: 1200px;
+    	margin-inline-start: 100px;
+    	margin-block-start: -40px;
+}
+main{
+	max-width: 1200px;
+    width: 100%;
 }
 h1 {
 	color: white;
