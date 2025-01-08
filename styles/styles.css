@@ -15,7 +15,7 @@ h1 {
 a {
     color: green;
 }
-a:link {
+a:hover {
     color: red;
 }
 h2 {
