@@ -16,6 +16,12 @@ nav a {
 	color: white;
 	padding: 70px;
 }
+a {
+    color: green;
+}
+a:link {
+    color: red;
+}
 h2 {
     font-size: 20px;
     text-align: center;
