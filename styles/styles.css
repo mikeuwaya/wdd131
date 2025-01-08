@@ -21,6 +21,11 @@ h2 {
     text-align: center;
     padding: auto;
 }
+.bullet {
+    display: list-item;
+    list-style-type: disc;
+    margin-inline-start: 50px;
+  }
 .flex-container {
     display: flex;
     background-color: rgb(5, 5, 5);
