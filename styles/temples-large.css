@@ -53,6 +53,13 @@ nav ul {
     justify-content: flex-end;
 }
 
+@media only screen and (max-device-width : 500px) {
+  .side {
+    float: none;
+    position: static;
+    width: auto;
+  }
+
 a:hover {
     color: red;
     text-decoration: underline double;
