@@ -10,48 +10,90 @@
 	    	<link rel="preconnect" href="https://fonts.googleapis.com">
 	    	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	    	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        	<link rel="stylesheet" href="styles/styles.css">
-	    	<link rel="stylesheet" href="styles/base.css">
-			<script src="scripts/getdates.js" defer></script>
+        	<link rel="stylesheet" href="styles/temples.css">
+	    	<link rel="stylesheet" href="styles/temples-large.css">
+			<script src="scripts/temples.js" defer></script>
     </head>
-		<body>
+    <body>      
             <header>
-                <h1>WDD 131 - Dynamic Web Fundamentals - Michael O. Uwaya</h1>
-                <nav class="flex-container">
-                    <div><a href="https://www.linkedin.com/in/michael-uwaya-hnd-pgde-pgdcy-msdt-74470499/">LinkedIn</a></div>
-                    <div><a href="#">Canvas</a></div>
-                    <div><a href="#">Scriptures</a></div>
-                    <div><a href="#">Final Project</a></div> 
-                </nav>
+                <h1>Temple Album</h1>
+                    <nav class="container">
+                        <ul>
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="#">Old</a></li>
+                            <li><a href="#">New</a></li>
+                            <li><a href="#">Large</a></li>
+                            <li><a href="#">Small</a></li>
+                        </ul>
+                    </nav>
             </header>
-		<main>
-                	<div class="gridbox">
-                    		<div class="divclass1" id="div1"><h2>About Me</h2></div>
-                    		<div class="divclass2" id="div2"><h2>Web Dev Resources</h2></div>
-                	</div>
-                	<div class="gridbox2">
-                    		<div class="divclass3" id="div3">
-                        		<img src="images/profile.jpg" alt="" width="125" height="160">
-                        		<p>My name is Michael Osaregbemah Uwaya. I was born in Edo State Nigeria and live with my family in Abuja Nigeria. I am currently working as a Production Manager in a Research firm. My family is are my world and love spending time with them. Because my Work is a contract and hibrid, I witness mostly when my family leaves and return home. I travel a lot and love gaining amazing experiences.</p>
-                        		<hr>
-                        		<br>
-                        		<img class="gip" src="images/Flag_of_Nigeria.svg.png" alt="" width="160" height="80">
-                        		<p>Nigeria, is a country in West Africa. It is situated between the Sahel to the north and the Gulf of Guinea in the Atlantic Ocean to the south. It covers an area of 923,769 square kilometres (356,669 sq mi). With a population of more than 230 million, it is the most populous country in Africa, and the world's sixth-most populous country.</p>
-                    		</div>
-                    		<div class="divclass4" id="div4">
-                        	<br>
-                        		<div class="bullet"><a href="#">Development to Community</a></div>
-                        			<div class="bullet"><a href="#">Smashing Magazine</a></div>
-                        				<div class="bullet"><a href="#">CSS Tricks</a></div>
-                        					<div class="bullet"><a href="#">W3 Schools</a></div>
-                        						<div class="bullet"><a href="#">Udemy</a></div>
-                        							<div class="bullet"><a href="#">Image Placeholder</a></div>
-                    		</div>
-               		</div>
+            <main>
+                    <h2 class="alive">Home</h2><br>
+                    <section>
+                        <figure>
+                        <img src="images/temples/abidjan-ivory-coast-temple.jpeg" alt="">
+                        <figcaption>Abidjan, Ivory Coast Temple</figcaption>
+                        </figure>
+                    </section>
+                    <section>
+                        <figure>
+                        <img src="images/temples/Auckland-New-Zealand-Temple-Resized.jpg" alt="">
+                        <figcaption>Auckland, New Zealand Temple Resized</figcaption>
+                        </figure>
+                    </section>
+                    <section>
+                        <figure>
+                        <img src="images/temples/Belo-Horizonte-Exterior-Rendering.jpg" alt="">
+                        <figcaption>Belo Horizonte Exterior Rendering</figcaption>
+                        </figure>
+                    </section>
+                    <section>
+                        <figure>
+                        <img src="images/temples/Port-Moresby-Papua-New-Guinea-Temple-exterior-rendering.jpg" alt="">
+                        <figcaption>Port Moresby Papua, New Guinea Temple Exterior Rendering</figcaption>
+                        </figure>
+                    </section>
+                    <section> 
+                        <figure>
+                        <img src="images/temples/Rendering_of_Cody_Wyoming_Temple.jpg" alt="">
+                        <figcaption>Rendering of Cody Wyoming Temple</figcaption>
+                        </figure>
+                    </section>
+                    <section>
+                        <figure>
+                        <img src="images/temples/Tallahassee-Florida-Temple.jpg" alt="">
+                        <figcaption>Tallahassee, Florida Temple</figcaption>
+                        </figure>
+                    </section>
+                    <section>
+                        <figure>
+                        <img src="images/temples/Toronto-Ontario-Temple-Resized.jpg" alt="">
+                        <figcaption>Toronto Ontario Temple Resized</figcaption>
+                        </figure>
+                    </section>
+                    <section>
+                        <figure>
+                        <img src="images/temples/albuquerque-temple-lds-998219-wallpaper.jpg" alt="">
+                        <figcaption>Albuquerque Temple Wallpaper</figcaption>
+                        </figure>
+                    </section>
+                    <section>
+                        <figure>
+                        <img src="images/temples/Arequipa-Peru-Temple.jpeg" alt="">
+                        <figcaption>Arequipa Peru Temple</figcaption>
+                        </figure>
+                    </section>
+                    <section>
+                        <figure>
+                        <img src="images/temples/bern-switzerland-temple-lds-784290-wallpaper.jpg" alt="">
+                        <figcaption>Bern, Switzerland Temple Wallpaper</figcaption>
+                        </figure>
+                    </section>
             </main>    
-            <footer>
-                <p>&#169;2025 &nbsp;|&nbsp; Michael Osaregbemah Uwaya &nbsp;|&nbsp; Nigeria</p>
-            </footer>       
-        </body>
+    <footer>
+        <p>&#169;2025 &nbsp;|&nbsp; Michael Osaregbemah Uwaya &nbsp;|&nbsp; Nigeria</p>
+        <div>Last Date Modified: </div>
+    </footer>       
+</body>
 
 </html>
