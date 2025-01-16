@@ -72,7 +72,7 @@ a:hover {
 .container {
     display:grid; 
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
-    grid-gap: 20px;
+    grid-gap: 20;
     place-items: center;
 }
 
@@ -86,12 +86,32 @@ img {
     margin: .12rem;
 }
 
-footer p, footer div {
-	height: 70px;
+footer {
+    max-width: 800px;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: #e6f2ff;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
     padding: 30px;
+  }
+
+footer p {
+	height: 70px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: -55px;
+}
+
+footer div {
+	height: 70px;
+    padding: 0;
     text-align: center;
     font-size: 15px;
-    margin-top: -21px;
+    margin-top: 1px;
     margin-bottom: -55px;
 }
 
