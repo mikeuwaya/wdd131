@@ -58,7 +58,7 @@ nav ul {
     float: none;
     position: static;
     width: auto;
-  }
+  }}
 
 a:hover {
     color: red;
