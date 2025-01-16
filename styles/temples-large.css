@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
   }
 
-header, main, footer {
+header, main {
     max-width: 800px;
     margin: 1rem auto;
     border: 1px solid #bbb;
@@ -15,9 +15,9 @@ header, main, footer {
   }
 
 section {
-    margin: 1rem auto; 
+    margin: 0.05rem auto; 
     max-width: 960px; 
-    padding: .15rem;
+    padding: .1rem;
 }
 
 figure{
@@ -34,7 +34,6 @@ h2{
     font-weight: 700;
     margin-block-start: 5px;
     margin-block-end: 1px;
-    
 }
 
 nav a {
@@ -58,7 +57,8 @@ nav ul {
     float: none;
     position: static;
     width: auto;
-  }}
+  }
+}
 
 a:hover {
     color: red;
@@ -72,7 +72,7 @@ a:hover {
 .container {
     display:grid; 
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
-    grid-gap: 5px;
+    grid-gap: 20;
     place-items: center;
 }
 
@@ -86,15 +86,15 @@ img {
     margin: .12rem;
 }
 
-figcaption {
-    font-size: smaller;
-}
-
-footer p, footer div{
+footer p, footer div {
 	height: 70px;
     padding: 30px;
     text-align: center;
     font-size: 15px;
     margin-top: -21px;
     margin-bottom: -55px;
+}
+
+figcaption {
+    font-size: smaller;
 }
