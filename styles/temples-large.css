@@ -53,7 +53,7 @@ nav ul {
     justify-content: flex-end;
 }
 
-@media only screen and (max-device-width : 500px) {
+@media only screen {
   .side {
     float: none;
     position: static;
