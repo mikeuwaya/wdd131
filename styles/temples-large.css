@@ -11,7 +11,7 @@ header, main, footer {
     background-color: #e6f2ff;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
-	padding: 20px;
+    padding: 20px;
   }
 
 section {
