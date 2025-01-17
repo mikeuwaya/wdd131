@@ -72,7 +72,7 @@ a:hover {
 .container {
     display:grid; 
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
-    grid-gap: 20;
+    grid-gap: 20px;
     place-items: center;
 }
 
