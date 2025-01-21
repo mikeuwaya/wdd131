@@ -88,11 +88,9 @@ article-2 {
     padding-top: 1px;   
 }
 
-       :root {
-    --main-bg-color: #f0f0f0;
-    --main-text-color: #333;
-    --primary-color: #4CAF50;
-    --font-size: 18px;
+:root {
+  background-color: red;
+  padding: 30px;
 }
 
 .oval{
