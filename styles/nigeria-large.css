@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+header {
+    max-width: 1040px;
+    height: 90px;
+    margin: 0.5rem auto;
+    border: 1px solid #bbb;
+    display: grid;
+    padding: 1rem;
+    background-color: #10b818;
+    grid-gap: 1rem;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+	font-size: 5rem;
+    -webkit-text-fill-color: white;
+    margin-top: 1px;
+    
+}
+
+.mine {
+    width: 1090px;
+    height: 715px;
+    background-color: #bffdd2;
+    border: 1px solid #bbb;
+    margin-inline-start: 65px;
+}
+.hero img {
+    margin-inline-start: -35px;
+    margin-top: -8px;
+    width: 1080px;
+    height: 450px;
+}
+
+article-1 {
+	background-color: rgba(179, 234, 194, 0.95);
+	position: absolute;
+	height: 290px;
+	width: 200px;
+    font-size: 15px;
+	margin-block-start: -410px;
+	margin-inline-start: 30px;
+}
+
+.assert {
+	background-color: rgba(15, 87, 34, 0.95);
+	position: static;
+	height: 40px;
+	width: 190px;
+    font-size: 25px;
+	margin-block-start: 15px;
+	margin-inline-start: -11px;
+}
+
+.para {
+    -webkit-text-fill-color: white;
+    margin-left: 10px;
+    padding-top: 5px;
+
+    
+}
+
+article-2 {
+	background-color: rgba(179, 234, 194, 0.95);
+	position: absolute;
+	height: 170px;
+	width: 200px;
+    font-size: 15px;
+	margin-block-start: -230px;
+	margin-inline-start: 850px;
+}
+
+.asserted {
+	background-color: rgba(15, 87, 34, 0.95);
+	position: relative;
+	height: 40px;
+	width: 190px;
+    font-size: 25px;
+	margin-block-start: -14px;
+	margin-inline-start: -10px;
+}
+
+.asserted img {
+    width: 30px;
+    height: 30px;
+    margin-inline-start: 20px;
+}
+
+.para-2 {
+    -webkit-text-fill-color: white;
+    margin-left: 10px;
+    padding-top: 5px;   
+}
+
+.oval{
+    margin-inline-start: 10px;
+    font-size: 12px;
+}
+
+footer {
+    max-width: 1020px;
+    margin: -1.3rem auto;
+    background-color: #10b818;
+    padding: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 30px;
+  }
+
+footer p {
+	height: 70px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: -55px;
+}
+
+footer div {
+	height: 70px;
+    padding: 0;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 1px;
+    margin-bottom: -55px;
+}
