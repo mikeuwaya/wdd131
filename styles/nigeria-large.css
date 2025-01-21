@@ -5,11 +5,16 @@ body {
     font-size: var(--font-size);
   }
 
-       :root {
+:root {
     --main-bg-color: #f0f0f0;
     --main-text-color: #333;
     --primary-color: #4CAF50;
     --font-size: 18px;
+}
+
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
 }
 
 header {
