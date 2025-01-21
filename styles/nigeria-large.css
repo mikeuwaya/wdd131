@@ -1,6 +1,16 @@
 body {
     font-family: 'Roboto', sans-serif;
+	background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-size: var(--font-size);
   }
+
+       :root {
+    --main-bg-color: #f0f0f0;
+    --main-text-color: #333;
+    --primary-color: #4CAF50;
+    --font-size: 18px;
+}
 
 header {
     max-width: 1040px;
@@ -86,11 +96,6 @@ article-2 {
     -webkit-text-fill-color: white;
     margin-left: 10px;
     padding-top: 1px;   
-}
-
-:root {
-  background-color: red;
-  padding: 30px;
 }
 
 .oval{
