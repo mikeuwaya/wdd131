@@ -12,10 +12,12 @@ body {
     --font-size: 18px;
 }
 
-p::first-line {
-  color: #ff0000;
-  font-variant: small-caps;
-}
+p::after-first-line {
+    color: #080000;
+    font-variant: small-caps;
+  }
+
+
 
 header {
     max-width: 1040px;
