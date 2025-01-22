@@ -5,6 +5,13 @@ body {
     font-size: var(--font-size);
   }
 
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
 :root {
     --main-bg-color: #f0f0f0;
     --main-text-color: #333;
@@ -12,12 +19,11 @@ body {
     --font-size: 18px;
 }
 
-p::after-first-line {
-    color: #080000;
-    font-variant: small-caps;
-  }
-
-
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
 
 header {
     max-width: 1040px;
