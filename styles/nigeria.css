@@ -1,13 +1,9 @@
-body {
-    font-family: 'Roboto', sans-serif;
-  }
-
-@media only screen and (max-width: 450px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
+@media (max-width: 480px) {
+            body {
+                background-color: white;
+		    font-family: 'Roboto', sans-serif;
+            }
+        }
 
 :root {
     --main-bg-color: #f0f0f0;
