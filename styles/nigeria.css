@@ -1,22 +1,26 @@
-@media only screen and (max-width: 600px) {
 body {
     font-family: 'Roboto', sans-serif;
-	background-color: var(--main-bg-color);
-    color: var(--main-text-color);
-    font-size: var(--font-size);
+  }
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
   }
 }
-       :root {
+
+:root {
     --main-bg-color: #f0f0f0;
     --main-text-color: #333;
     --primary-color: #4CAF50;
     --font-size: 18px;
 }
 
-p::after-first-line {
-    color: #080000;
-    font-variant: small-caps;
-  }
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
 
 header {
     max-width: 1040px;
