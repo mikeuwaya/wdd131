@@ -106,14 +106,6 @@ article-2 {
     font-size: 12px;
 }
 
-@media only screen {
-    .side {
-      float: none;
-      position: static;
-      width: auto;
-    }
-  }
-
 footer {
     max-width: 1020px;
     margin: -1.3rem auto;
