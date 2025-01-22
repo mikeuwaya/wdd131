@@ -5,7 +5,7 @@ body {
     font-size: var(--font-size);
   }
 
-:root {
+       :root {
     --main-bg-color: #f0f0f0;
     --main-text-color: #333;
     --primary-color: #4CAF50;
@@ -18,9 +18,8 @@ p::after-first-line {
   }
 
 
-
 header {
-    max-width: 640px;
+    max-width: 1040px;
     height: 90px;
     margin: 0.5rem auto;
     border: 1px solid #bbb;
@@ -42,7 +41,7 @@ header {
 .hero img {
     margin-inline-start: 44px;
     margin-top: -17px;
-    width: 640px;
+    width: 1080px;
     height: 450px;
 }
 
