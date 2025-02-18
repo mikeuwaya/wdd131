@@ -48,9 +48,6 @@ nav a {
 
 nav ul {
 	list-style: none;
-	display: flex;
-	flex-direction: row;
-    justify-content: flex-end;
 }
 
 @media only screen {
@@ -61,20 +58,10 @@ nav ul {
   }
 }
 
-a:hover {
-    color: red;
-    text-decoration: underline double;
-}
+
 
 .active {
 	color: rgb(239, 8, 119);
-}
-
-.container {
-    display:grid; 
-    grid-template-rows: repeat(auto-fit, minmax(100px, )); 
-    grid-gap: 20px;
-    place-items: center;
 }
 
 figure {
