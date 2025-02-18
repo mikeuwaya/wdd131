@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+header, main {
+    max-width: 800px;
+    height: 400px;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    display: grid;
+    padding: 1rem;
+    background-color: #e6f2ff;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 20px;
+  }
+
+section {
+    margin: 0.05rem auto; 
+    max-width: 960px; 
+    padding: .1rem;
+}
+
+figure{
+    text-align: center;
+    
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2{
+    text-align: center;
+    font-weight: 700px;
+    margin-block-start: 5px;
+    margin-block-end: 1px;
+}
+
+nav a {
+	display: block;
+    color: rgb(6, 99, 180);
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: larger;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+    justify-content: flex-end;
+}
+
+@media only screen {
+  .side {
+    float: none;
+    position: static;
+    width: auto;
+  }
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline double;
+}
+
+.active {
+	color: rgb(239, 8, 119);
+}
+
+.container {
+    display:grid; 
+    grid-template-rows: repeat(auto-fit, minmax(100px, )); 
+    grid-gap: 20px;
+    place-items: center;
+}
+
+figure {
+    background-color:#fff;
+}
+
+img { 
+    width: 100%; 
+    height: auto; 
+    margin: .12rem;
+}
+
+footer {
+    max-width: 800px;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: #e6f2ff;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 30px;
+  }
+
+footer p {
+	height: 70px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: -55px;
+}
+
+footer div {
+	height: 70px;
+    padding: 0;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 1px;
+    margin-bottom: -55px;
+}
+
+figcaption {
+    font-size: smaller;
+}
