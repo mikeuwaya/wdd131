@@ -2,7 +2,17 @@ body {
     font-family: 'Roboto', sans-serif;
   }
 
-header, main {
+header {
+    max-width: 1000px;
+    height: 50px;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: #e6f2ff;
+    padding: 20px;
+  }
+
+main {
     max-width: 800px;
     height: 50px;
     margin: 1rem auto;
@@ -14,6 +24,16 @@ header, main {
     grid-gap: 1rem;
     padding: 20px;
   }
+  
+  .grid-container {
+    display: grid;
+    grid: 150px / auto auto auto;
+  }
+
+.handler{
+    margin-top: 1px;
+    width: 250px;
+}
 
 .box > * {
     border: 1px solid rgb(96 139 168);
@@ -59,13 +79,18 @@ h2{
     height: 50px;
 }
 
+nav{
+    width: 400px;
+    margin-inline-start: 540px;
+    margin-block-start: -40px;
+}
+
 nav a {
-	display: block;
     color: rgb(6, 99, 180);
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
-	font-size: larger;
+	font-size: medium;
 }
 
 nav ul {
@@ -140,7 +165,7 @@ img {
 }
 
 footer {
-    max-width: 800px;
+    max-width: 1000px;
     height: 70px;
     margin: 10px auto;
     border: 1px solid #bbb;
