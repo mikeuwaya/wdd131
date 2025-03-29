@@ -4,7 +4,7 @@ body {
 
 header, main {
     max-width: 800px;
-    height: 400px;
+    height: 50px;
     margin: 1rem auto;
     border: 1px solid #bbb;
     display: grid;
@@ -14,6 +14,27 @@ header, main {
     grid-gap: 1rem;
     padding: 20px;
   }
+
+.box > * {
+    border: 1px solid rgb(96 139 168);
+    border-radius: 5px;
+    background-color: #e6f2ff;
+    margin: 15px;
+    width: 350px;
+    height: 350px;
+  }
+  
+.box {
+    width: 800px;
+    height: 1200px;
+    border: 2px dotted #e6f2ff;
+    display: flex;
+    flex-wrap: wrap;
+  }
+.long_1{
+    width: 800px;
+    height: 900px;
+}
 
 section {
     margin: 0.05rem auto; 
@@ -35,6 +56,7 @@ h2{
     font-weight: 700px;
     margin-block-start: 5px;
     margin-block-end: 1px;
+    height: 50px;
 }
 
 nav a {
@@ -58,14 +80,57 @@ nav ul {
   }
 }
 
+.flex-container {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-inline-start: -18px;
+}
 
+.flex-container-2 {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-inline-start: -18px;
+}
+
+.flex-container-3 {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-inline-start: -18px;
+}
+
+.flex-container-4 {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.flex-container-5 {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-inline-start: -18px;
+}
+
+.flex-item {
+    background-color: #e6f2ff;
+    color: white;
+    margin: 5px;
+    padding: -1px;
+    text-align: center;
+    flex: 1;
+    width: 450px;
+}
+  
+a:hover {
+    color: red;
+    text-decoration: underline double;
+}
 
 .active {
 	color: rgb(239, 8, 119);
-}
-
-figure {
-    background-color:#fff;
 }
 
 img { 
@@ -76,17 +141,19 @@ img {
 
 footer {
     max-width: 800px;
-    margin: 1rem auto;
+    height: 70px;
+    margin: 10px auto;
     border: 1px solid #bbb;
     padding: 1rem;
     background-color: #e6f2ff;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
     padding: 30px;
+    margin-top: 3450px;
   }
 
 footer p {
-	height: 70px;
+	height: 30px;
     padding: 0;
     text-align: center;
     font-size: 20px;
@@ -95,11 +162,11 @@ footer p {
 }
 
 footer div {
-	height: 70px;
+	height: 40px;
     padding: 0;
     text-align: center;
     font-size: 15px;
-    margin-top: 1px;
+    margin-top: 40px;
     margin-bottom: -55px;
 }
 
