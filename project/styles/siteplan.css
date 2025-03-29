@@ -1,0 +1,23 @@
+header img{
+    width: 170px;
+    height: 130px;
+    margin-inline-start: 170px;    
+    border: 1.5px solid #0e0a0a;
+}
+
+.hero{
+    max-width: 900px;
+    height: 800px;
+    margin: 1rem auto;
+    border: 1.5px solid #0e0a0a;
+    padding: 1rem;
+    background-color: #aecdf8;
+    padding: 20px;
+}
+
+h1{
+    margin-inline-start: 430px;
+    margin-block-start: -110px;
+    font-size: 40px;
+    color: rgb(29, 146, 219);
+}
