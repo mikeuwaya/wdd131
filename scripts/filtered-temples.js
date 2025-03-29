@@ -1,127 +1,8 @@
 var date = document.lastModified;
       document.getElementById("short").innerHTML = "Last modified on: " + date;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-      const cardContainer = document.getElementById('long2');
-      
-      function createCard(templeName1, location1, dedicated1, area1, imageUrl1) {
-          const card = document.createElement('div');
-          card.classList.add('card');
-      
-          const cardtempleName1 = document.createElement('h2');
-          cardtempleName1.textContent = templeName1;
-      
-          const cardlocation1 = document.createElement('p');
-          cardlocation1.textContent = location1;
-
-          const carddedicated1 = document.createElement('p');
-          carddedicated1.textContent = dedicated1;
-
-          const cardarea1 = document.createElement('p');
-          cardarea1.textContent = area1;
-
-          const cardimageUrl1 = document.createElement('p');
-          cardimageUrl1.textContent = imageUrl1;
-      
-          card.appendChild(cardtempleName1);
-          card.appendChild(cardlocation1);
-          card.appendChild(carddedicated1);
-          card.appendChild(cardarea1);
-          card.appendChild(cardimageUrl1);
-      
-          return card;
-      }
-      
-      // Example usage
-      const card1 = createCard('Aba Nigeria', 'LOCATION: Aba, Nigeria', 'DEDICATED: 2005, August, 7', 'SIZE: 11500', 'https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg');
-      
-      
-      cardContainer.appendChild(card1);
-      
-      
-
-
-
-
-
-
-
-
-
-      
-const cardContainer2 = document.getElementById('long3');
-      
-function createCard(templeName2, location2, dedicated2, area2, imageUrl2) {
-    const card = document.createElement('div');
-    card.classList.add('card');
-
-    const cardtempleName2 = document.createElement('h2');
-    cardtempleName2.textContent = templeName2;
-
-    const cardlocation2 = document.createElement('p');
-    cardlocation2.textContent = location2;
-
-    const carddedicated2 = document.createElement('p');
-    carddedicated2.textContent = dedicated2;
-
-    const cardarea2 = document.createElement('p');
-    cardarea2.textContent = area2;
-
-    const cardimageUrl2 = document.createElement('p');
-    cardimageUrl2.textContent = imageUrl2;
-
-    card.appendChild(cardtempleName2);
-    card.appendChild(cardlocation2);
-    card.appendChild(carddedicated2);
-    card.appendChild(cardarea2);
-    card.appendChild(cardimageUrl2);
-
-    return card;
-}
-
-// Example usage
-const card2 = createCard('Manti Utah', 'LOCATION: Aba, Nigeria', 'DEDICATED: 2005, August, 7', 'SIZE: 11500 sq ft', 'https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg');
-
-
-cardContainer2.appendChild(card2);
-
-
-/* LOOP starts here*/
-var text = "templeName";
-      document.getElementById("long1").innerHTML = text;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var year = document.lastModified;
+      document.getElementById("shorter").innerHTML = " | Michael Osaregbemah Uwaya | Nigeria" + year;
 
 
 
@@ -132,7 +13,7 @@ var text = "templeName";
 /* List of Temples*/
 const temples = [
   {
-    templeName1: "Aba Nigeria",
+    templeName: "Aba Nigeria",
     location1: "Aba, Nigeria",
     dedicated1: "2005, August, 7",
     area1: 11500,
@@ -236,5 +117,61 @@ const temples = [
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/kyiv-ukraine-temple/400x250/kyiv-ukraine-temple-wallpaper.jpg"
   },   
 ];
+
+
+
+
+
+
+
+
+
+
+/* LOOP starts here*/
+
+createTempleCard();
+
+function createTempleCard() {
+  temples.forEach(temple => {
+    let card = document.createElement ("section");
+    let name = document.createElement ("h3");
+    let location = document.createElement ("p");
+    let dedication = document.createElement ("p");
+    let area = document.createElement ("p");
+    let img = document.createElement ("img");
+      
+    name.textContent = temple.templeName;
+    location.innerHTML = '<span class="label">Location: </span> ${temple.location}';
+    dedication.innerHTML = '<span class="label">Dedication: </span> ${temple.dedicated}';
+    area.innerHTML = '<span class="label">Size: </span> ${temple.area} sq ft';
+    img.setAttribute("src", temple.imageUrl);
+    img.setAttribute("alt", '${temple.templeName} Temple');
+    img.setAttribute("loading", "lazy");
+      
+    card.appendChild(name);
+    card.appendChild(location);
+    card.appendChild(dedication);
+    card.appendChild(area);
+    card.appendChild(img);
+      
+    document.querySelector(".res-grid").appendChild(card);
+    });
+    }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
