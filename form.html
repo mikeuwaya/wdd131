@@ -19,7 +19,7 @@
     <main>
         <form action="review.html" method="get" class="form">
             <div class="form">
-              <label for="cars">Product Name: </label> 
+              <label for="products">Product Name: </label> 
                 <select name="cars" id="products" class="form-control" onfocus='this.size=5;' onblur='this.size=1;' onchange='this.size=1; this.blur();' required>
                   <option selected="selected" disabled="disabled" value="Select a product">Select a Product ...</option>
                   <option value="Volvo">Volvo</option>
@@ -40,7 +40,7 @@
             </div>
             <br><br>
             <div>
-              <label for="Rating">Overall Rating:</label>
+              <label for="rating" id="rating">Overall Rating:</label>
                 <table>
                     <tr> 
                       <td><img src="images/form/star-outline.svg" alt="" width="20" height="25"></td>
@@ -65,7 +65,7 @@
             </div>
             <br><br>
             <p>Which features did you find useful in the product?</p><br>
-            <label for="vehicle"><i>(Check all that apply)</i></label><br>                        
+            <label for="vehicle1"><i>(Check all that apply)</i></label><br>                        
                 <div><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> Durability</div><br>
                 <div><input type="checkbox" id="vehicle2" name="vehicle2" value="Car"> Ease of Use</div><br>
                 <div><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"> Performance</div><br>
