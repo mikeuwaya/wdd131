@@ -19,9 +19,9 @@
     <main>
         <form action="review.html" method="get" class="form">
             <div class="form">
-            <label for="name">Product Name: </label>
+            <div>Product Name: 
                 <select name="cars" id="products" class="form-control" onfocus='this.size=5;' onblur='this.size=1;' onchange='this.size=1; this.blur();' required>
-                  <option value="Select a product" disabled selected>Select a Product ...</option>
+                  <option value="Select a product" disabled>Select a Product ...</option>
                   <option value="Volvo">Volvo</option>
                   <option value="Mercedez">Mercedez</option>
                   <option value="audi">Audi</option>
@@ -37,6 +37,7 @@
                   <option value="Buick">Buick</option>
                   <option value="Chrysler">Chrysler</option>
                 </select>
+              </div>
             </div>
             <br><br>
             <div>
@@ -60,14 +61,8 @@
               </div>
               <br><br>
               <div>
-                  <table>
-                    <tr>
-                      <td2>
-                          <div>Date of Installation: </div>
-                          <input type="date" id="birthday" name="birthday" required>
-                      </td2>
-                    </tr>
-                  </table>
+                  <div>Date of Installation: </div>
+                  <input type="date" id="birthday" name="birthday" required>
             </div>
             <br><br>
             <div>
