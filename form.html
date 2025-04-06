@@ -17,7 +17,7 @@
                 <h1>Product Review</h1>
         </header>
     <main>
-        <form action="" method="get" class="form" action="review.html">
+        <form action="review.html" method="get" class="form">
             <div class="form">
             <label for="name">Product Name: </label>
                 <select name="cars" id="products" class="form-control" onfocus='this.size=5;' onblur='this.size=1;' onchange='this.size=1; this.blur();' required>
@@ -40,7 +40,7 @@
             </div>
             <br><br>
             <div>
-                <label for="name2">Overall Rating: </label>
+                <div>Overall Rating: </div>
                 <table>
                     <tr> 
                       <td><img src="images/form/star-outline.svg" alt="" width="20" height="25"></td>
@@ -63,7 +63,7 @@
                   <table>
                     <tr>
                       <td2>
-                          <label for="name3">Date of Installation: </label>
+                          <div>Date of Installation: </div>
                           <input type="date" id="birthday" name="birthday" required>
                       </td2>
                     </tr>
@@ -71,26 +71,16 @@
             </div>
             <br><br>
             <div>
-                <table>
-                  <tr>
-                    <td2>
-                        <label for="name4">Which features did you find useful in the product?</label><br>
-                        <label for="name5"><i>(Check all that apply)</i></label><br>
-                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                        <label for="vehicle1"> Durability</label><br>
-                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                        <label for="vehicle2"> Ease of Use</label><br>
-                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                        <label for="vehicle3"> Performance</label><br>
-                        <input type="checkbox" id="vehicle4" name="vehicle4" value="train">
-                        <label for="vehicle4"> Design</label><br>
-                    </td2>
-                  </tr>
-              </table>
+                <div">Which features did you find useful in the product?</div><br>
+                <div"><i>(Check all that apply)</i></div><br>                        
+                <div><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> Durability</div><br>
+                <div><input type="checkbox" id="vehicle2" name="vehicle2" value="Car"> Ease of Use</div><br>
+                <div><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"> Performance</div><br>
+                <div><input type="checkbox" id="vehicle4" name="vehicle4" value="train"> Design</div><br>
             </div>
             <br><br>
             <div>
-                <label for="fname">Written Review (Optional)</label><br>
+                <div>Written Review (Optional)</div><br>
                 <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
             </div>
             <br><br>
