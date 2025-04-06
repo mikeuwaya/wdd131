@@ -20,7 +20,7 @@ h1{
 
 main {
     max-width: 700px;
-    height: 860px;
+    height: 900px;
     margin: 1rem auto;
     border: 1px solid #919090;
     background-color: #afb1b3;
@@ -59,7 +59,6 @@ label,input {
 
 input[type="text"] {
     width: 350px;
-    height: 200px;
 }
 
 input[type="text2"],[type="date"],[type="cars"] {
