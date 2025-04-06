@@ -19,9 +19,9 @@
     <main>
         <form action="review.html" method="get" class="form">
             <div class="form">
-            <div>Product Name: 
+              <label for="cars">Product Name: </label> 
                 <select name="cars" id="products" class="form-control" onfocus='this.size=5;' onblur='this.size=1;' onchange='this.size=1; this.blur();' required>
-                  <option selected="true" disabled="disabled" value="Select a product">Select a Product ...</option>
+                  <option selected="selected" disabled="disabled" value="Select a product">Select a Product ...</option>
                   <option value="Volvo">Volvo</option>
                   <option value="Mercedez">Mercedez</option>
                   <option value="audi">Audi</option>
@@ -37,11 +37,10 @@
                   <option value="Buick">Buick</option>
                   <option value="Chrysler">Chrysler</option>
                 </select>
-              </div>
             </div>
             <br><br>
             <div>
-                <div>Overall Rating: </div>
+              <label for="Rating">Overall Rating:</label>
                 <table>
                     <tr> 
                       <td><img src="images/form/star-outline.svg" alt="" width="20" height="25"></td>
@@ -61,24 +60,24 @@
               </div>
               <br><br>
               <div>
-                  <div>Date of Installation: </div>
-                  <input type="date" id="birthday" name="birthday" required>
+                <label for="date">Date of Installation</label>
+                  <input type="date" id="date" name="date" required>
             </div>
             <br><br>
-                <div>Which features did you find useful in the product?</div><br>
-                <div><i>(Check all that apply)</i></div><br>                        
+            <label for="vehicle">Which features did you find useful in the product?</label><br>
+            <label for="vehicle"><i>(Check all that apply)</i><br>                        
                 <div><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> Durability</div><br>
                 <div><input type="checkbox" id="vehicle2" name="vehicle2" value="Car"> Ease of Use</div><br>
                 <div><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"> Performance</div><br>
                 <div><input type="checkbox" id="vehicle4" name="vehicle4" value="train"> Design</div><br>
             <br><br>
             <div>
-                <div>Written Review (Optional)</div><br>
+              <label for="textarea">Written Review (Optional)</label><br>
                 <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
             </div>
             <br><br>
             <div>
-              <p>Your Name (Optional)</p>
+              <label for="fname">Your Name (Optional)</label></p>
               <input type="text" id="fname" name="fname"><br><br>
             </div>
             <div class="form">
